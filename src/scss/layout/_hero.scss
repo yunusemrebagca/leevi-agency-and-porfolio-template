@@ -1,0 +1,56 @@
+@use "../base/variables" as *;
+
+.hero {
+  padding-block: 6rem;
+
+  background-color: $primary-color;
+  &__top {
+    padding-inline: 4rem;
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: self-end;
+    flex: 1 1;
+  }
+  &__title {
+    font-size: $font-very-large;
+    font-weight: 400;
+    line-height: 100%;
+  }
+  &__info {
+    font-size: $font-medium;
+    font-weight: 300;
+    max-width: 450px;
+    line-height: 160%;
+  }
+  &__bottom {
+    width: 100%;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__img {
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+  }
+  &__bottom-line {
+    border-radius: 0 0 12px 12px;
+    background-color: $secondary-color;
+    padding: $font-medium;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    font-size: $font-very-small;
+  }
+  &__corps {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 4rem;
+    padding-inline: 8rem;
+    align-items: center;
+    img {
+      height: 60px;
+    }
+  }
+}

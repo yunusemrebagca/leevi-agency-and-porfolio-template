@@ -1,0 +1,17 @@
+@use "../base/variables" as *;
+
+.btn {
+  border-radius: 6px;
+  padding-block: 1rem;
+  padding-inline: 1rem;
+}
+.btn--primary {
+  background-color: $secondary-color;
+  transition: all 0.5s ease-in-out;
+  &:hover {
+    background-color: rgba($color: $secondary-color, $alpha: 0.2);
+    scale: 1.4;
+    font-weight: 300;
+    color: rgb(80, 77, 102);
+  }
+}

@@ -1,0 +1,15 @@
+@use "base/reset";
+@use "base/variables" as *;
+@use "layout/header";
+@use "components/buttons";
+@use "layout/hero";
+
+body {
+  background-color: $background;
+}
+.container {
+  padding-inline: 4rem;
+}
+.page__wrapper {
+  padding: 2rem;
+}
