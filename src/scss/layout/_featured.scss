@@ -1,0 +1,65 @@
+@use "../base/variables" as *;
+
+.featured {
+  padding-bottom: 4rem;
+  padding-top: 3rem;
+  background-color: $primary-color;
+  & .container {
+    display: flex;
+    flex-direction: column;
+  }
+  &__title {
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: $font-medium;
+    font-weight: 400;
+  }
+  &__sections {
+    display: flex;
+    flex-direction: column;
+  }
+  &__card {
+    width: 90%;
+    height: 600px;
+    align-self: center;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(128, 128, 128, 0.714);
+    background-blend-mode: multiply;
+    border-radius: 1rem;
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-bottom: 1rem;
+
+    &-top {
+      color: $primary-color;
+    }
+    h3 {
+      font-size: $font-very-large;
+      line-height: 120%;
+    }
+    p {
+      font-size: $font-very-small;
+    }
+    &-bottom {
+      font-size: $font-medium;
+
+      button:first-of-type {
+        margin-right: 0.3rem;
+      }
+    }
+  }
+  .card-1 {
+    background-image: url("/multimedia/featured_img.png");
+  }
+  .card-2 {
+    background-image: url("/multimedia/featured_img-2.png");
+  }
+  .card-3 {
+    background-image: url("/multimedia/featured_img-3.png");
+  }
+}

@@ -9,6 +9,22 @@
   &--secondary {
     background-color: $secondary-color;
   }
+  &--primary {
+    background-color: $primary-color;
+    padding-block: 0.6rem;
+    padding-inline: 0.9rem;
+    transition: all ease 0.5s;
+    font-size: small;
+    &:hover {
+      background-color: $secondary-color;
+    }
+  }
+}
+.btn--featured {
+  padding-inline: 2rem;
+  font-size: $font-small;
+  width: 90%;
+  align-self: center;
 }
 .btn--header {
   transition: all 0.5s ease-in-out;

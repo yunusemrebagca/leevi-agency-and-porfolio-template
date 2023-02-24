@@ -31,6 +31,7 @@ button {
   background-color: none;
   color: inherit;
   border: none;
+  text-decoration: none;
 }
 
 .header {
@@ -72,6 +73,23 @@ button {
 .btn--secondary {
   background-color: #f2ff93;
 }
+.btn--primary {
+  background-color: #ffffff;
+  padding-block: 0.6rem;
+  padding-inline: 0.9rem;
+  transition: all ease 0.5s;
+  font-size: small;
+}
+.btn--primary:hover {
+  background-color: #f2ff93;
+}
+
+.btn--featured {
+  padding-inline: 2rem;
+  font-size: 1.125rem;
+  width: 90%;
+  align-self: center;
+}
 
 .btn--header {
   transition: all 0.5s ease-in-out;
@@ -84,7 +102,7 @@ button {
 }
 
 .hero {
-  padding-top: 6rem;
+  padding-top: 4.5rem;
   padding-bottom: 4rem;
   background-color: #ffffff;
 }
@@ -188,6 +206,66 @@ button {
 }
 .services__right .card:hover h4 {
   color: #f2ff93;
+}
+
+.featured {
+  padding-bottom: 4rem;
+  padding-top: 3rem;
+  background-color: #ffffff;
+}
+.featured .container {
+  display: flex;
+  flex-direction: column;
+}
+.featured__title {
+  text-align: center;
+  margin-bottom: 4rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.featured__sections {
+  display: flex;
+  flex-direction: column;
+}
+.featured__card {
+  width: 90%;
+  height: 600px;
+  align-self: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(128, 128, 128, 0.714);
+  background-blend-mode: multiply;
+  border-radius: 1rem;
+  padding: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.featured__card-top {
+  color: #ffffff;
+}
+.featured__card h3 {
+  font-size: 4rem;
+  line-height: 120%;
+}
+.featured__card p {
+  font-size: 0.875rem;
+}
+.featured__card-bottom {
+  font-size: 1.25rem;
+}
+.featured__card-bottom button:first-of-type {
+  margin-right: 0.3rem;
+}
+.featured .card-1 {
+  background-image: url("/featured_img.d7ca389c.png");
+}
+.featured .card-2 {
+  background-image: url("/featured_img-2.0d1715cc.png");
+}
+.featured .card-3 {
+  background-image: url("/featured_img-3.2cb1b50f.png");
 }
 
 body {
