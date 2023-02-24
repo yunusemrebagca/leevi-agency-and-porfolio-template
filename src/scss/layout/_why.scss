@@ -16,10 +16,15 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 4rem;
+
     > p {
       font-size: 2.5rem;
       line-height: 120%;
       margin-bottom: 3rem;
+      transition: all ease 0.5s;
+    }
+    > p:hover {
+      font-size: 3rem;
     }
   }
   &__reasons {

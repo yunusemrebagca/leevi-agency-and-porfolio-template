@@ -244,6 +244,7 @@ button {
   flex-direction: column;
   justify-content: space-between;
   margin-bottom: 1rem;
+  transition: all ease 0.5s;
 }
 .featured__card-top {
   color: #ffffff;
@@ -260,6 +261,9 @@ button {
 }
 .featured__card-bottom button:first-of-type {
   margin-right: 0.3rem;
+}
+.featured__card:hover {
+  background-color: rgba(128, 128, 128, 0.497);
 }
 .featured .card-1 {
   background-image: url("/featured_img.d7ca389c.png");
@@ -292,6 +296,10 @@ button {
   font-size: 2.5rem;
   line-height: 120%;
   margin-bottom: 3rem;
+  transition: all ease 0.5s;
+}
+.why__right > p:hover {
+  font-size: 3rem;
 }
 .why__reasons {
   display: grid;

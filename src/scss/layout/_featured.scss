@@ -35,6 +35,8 @@
 
     margin-bottom: 1rem;
 
+    transition: all ease 0.5s;
+
     &-top {
       color: $primary-color;
     }
@@ -51,6 +53,9 @@
       button:first-of-type {
         margin-right: 0.3rem;
       }
+    }
+    &:hover {
+      background-color: rgba(128, 128, 128, 0.497);
     }
   }
   .card-1 {
