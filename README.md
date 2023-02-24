@@ -1,6 +1,6 @@
 # leevi-agency-and-porfolio
 
-This projects design not my design i see on the figma community and trying to code.
+This project's design not my design I saw on the figma community and trying to code.
 
 You can find figma design files in here https://www.figma.com/community/file/1192839311185193574
 
