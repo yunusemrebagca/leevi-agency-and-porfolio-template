@@ -9,20 +9,23 @@
     padding-inline: 4rem;
     padding-bottom: 4rem;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: self-end;
-    flex: 1 1;
   }
   &__title {
-    font-size: $font-very-large;
+    font-size: 5rem;
     font-weight: 400;
     line-height: 100%;
+    flex: 1;
+    max-width: 600px;
   }
   &__info {
     font-size: $font-medium;
     font-weight: 300;
     max-width: 450px;
     line-height: 160%;
+    flex: 1;
   }
   &__bottom {
     width: 100%;

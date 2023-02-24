@@ -110,20 +110,23 @@ button {
   padding-inline: 4rem;
   padding-bottom: 4rem;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: self-end;
-  flex: 1 1;
 }
 .hero__title {
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 400;
   line-height: 100%;
+  flex: 1;
+  max-width: 600px;
 }
 .hero__info {
   font-size: 1.25rem;
   font-weight: 300;
   max-width: 450px;
   line-height: 160%;
+  flex: 1;
 }
 .hero__bottom {
   width: 100%;
@@ -266,6 +269,34 @@ button {
 }
 .featured .card-3 {
   background-image: url("/featured_img-3.2cb1b50f.png");
+}
+
+.why {
+  background-color: #ffffff;
+  padding-inline: 12rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.why__left {
+  flex: 1;
+  font-size: 1.2rem;
+}
+.why__right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+}
+.why__right > p {
+  font-size: 2.5rem;
+  line-height: 120%;
+  margin-bottom: 3rem;
+}
+.why__reasons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1rem;
 }
 
 body {
