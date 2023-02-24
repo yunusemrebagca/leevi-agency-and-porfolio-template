@@ -4,9 +4,13 @@
   border-radius: 6px;
   padding-block: 1rem;
   padding-inline: 1rem;
+
+  text-align: center;
+  &--secondary {
+    background-color: $secondary-color;
+  }
 }
-.btn--primary {
-  background-color: $secondary-color;
+.btn--header {
   transition: all 0.5s ease-in-out;
   &:hover {
     background-color: rgba($color: $secondary-color, $alpha: 0.2);

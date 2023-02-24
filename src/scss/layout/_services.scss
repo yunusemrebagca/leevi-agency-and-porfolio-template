@@ -1,0 +1,47 @@
+@use "../base/variables" as *;
+.services {
+  background-color: $primary-color;
+  padding-inline: 10rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+  &__left {
+    display: flex;
+
+    h3 {
+      font-size: 4rem;
+      line-height: 100%;
+      font-weight: 400;
+    }
+    * {
+      margin-bottom: 10px;
+    }
+    flex-direction: column;
+  }
+  &__right {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+
+    .card {
+      display: grid;
+      gap: 0.5rem;
+      padding: 3rem;
+      background-color: $background;
+      border-radius: 1rem;
+      img {
+        width: 60px;
+        margin-bottom: 1.4rem;
+      }
+      p {
+        font-size: $font-very-small;
+      }
+      h4 {
+        font-size: $font-medium;
+        font-weight: 400;
+      }
+    }
+  }
+}

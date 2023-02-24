@@ -67,13 +67,16 @@ button {
   border-radius: 6px;
   padding-block: 1rem;
   padding-inline: 1rem;
+  text-align: center;
+}
+.btn--secondary {
+  background-color: #f2ff93;
 }
 
-.btn--primary {
-  background-color: #f2ff93;
+.btn--header {
   transition: all 0.5s ease-in-out;
 }
-.btn--primary:hover {
+.btn--header:hover {
   background-color: rgba(242, 255, 147, 0.2);
   scale: 1.4;
   font-weight: 300;
@@ -132,6 +135,51 @@ button {
 }
 .hero__corps img {
   height: 60px;
+}
+
+.services {
+  background-color: #ffffff;
+  padding-inline: 10rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+}
+.services__left {
+  display: flex;
+  flex-direction: column;
+}
+.services__left h3 {
+  font-size: 4rem;
+  line-height: 100%;
+  font-weight: 400;
+}
+.services__left * {
+  margin-bottom: 10px;
+}
+.services__right {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+.services__right .card {
+  display: grid;
+  gap: 0.5rem;
+  padding: 3rem;
+  background-color: #e8e8e8;
+  border-radius: 1rem;
+}
+.services__right .card img {
+  width: 60px;
+  margin-bottom: 1.4rem;
+}
+.services__right .card p {
+  font-size: 0.875rem;
+}
+.services__right .card h4 {
+  font-size: 1.25rem;
+  font-weight: 400;
 }
 
 body {
