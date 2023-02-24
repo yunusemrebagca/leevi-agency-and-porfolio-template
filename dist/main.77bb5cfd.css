@@ -84,7 +84,8 @@ button {
 }
 
 .hero {
-  padding-block: 6rem;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
   background-color: #ffffff;
 }
 .hero__top {
@@ -169,6 +170,7 @@ button {
   padding: 3rem;
   background-color: #e8e8e8;
   border-radius: 1rem;
+  transition: all ease 0.5s;
 }
 .services__right .card img {
   width: 60px;
@@ -180,6 +182,12 @@ button {
 .services__right .card h4 {
   font-size: 1.25rem;
   font-weight: 400;
+}
+.services__right .card:hover {
+  background-color: #b5b5b5;
+}
+.services__right .card:hover h4 {
+  color: #f2ff93;
 }
 
 body {

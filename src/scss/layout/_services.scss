@@ -42,6 +42,13 @@
         font-size: $font-medium;
         font-weight: 400;
       }
+      transition: all ease 0.5s;
+      &:hover {
+        background-color: darken($color: $background, $amount: 20%);
+        h4 {
+          color: $secondary-color;
+        }
+      }
     }
   }
 }
