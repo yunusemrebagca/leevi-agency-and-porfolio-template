@@ -51,4 +51,7 @@
       }
     }
   }
+  @media (max-width: 1100px) {
+    grid-template-columns: 1fr;
+  }
 }
