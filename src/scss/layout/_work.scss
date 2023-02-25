@@ -1,1 +1,67 @@
 @use "../base/variables" as *;
+
+.work {
+  background-color: $primary-color;
+  display: flex;
+  flex-direction: column;
+  padding-inline: 8rem;
+  padding-block: 4rem;
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+  }
+  &__title {
+    &-small {
+      font-size: 1rem;
+    }
+    &-big {
+      font-size: 3rem;
+    }
+  }
+  &__bottom {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+  }
+  &__img {
+    display: block;
+    width: 100%;
+    border-radius: 1rem;
+  }
+  &__cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+
+    .card {
+      &__secondary {
+        background-color: $secondary-color;
+      }
+      display: grid;
+      gap: 0.5rem;
+      padding: 3rem;
+      background-color: $background;
+      border-radius: 1rem;
+      img {
+        width: 60px;
+        margin-bottom: 1.4rem;
+      }
+      p {
+        font-size: $font-very-small;
+      }
+      h4 {
+        font-size: $font-medium;
+        font-weight: 400;
+      }
+      transition: all ease 0.5s;
+      &:hover {
+        background-color: darken($color: $background, $amount: 20%);
+        h4 {
+          color: $secondary-color;
+        }
+      }
+    }
+  }
+}
