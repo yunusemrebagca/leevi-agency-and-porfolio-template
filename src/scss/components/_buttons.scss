@@ -11,10 +11,12 @@
   }
   &--primary {
     background-color: $primary-color;
-    padding-block: 0.6rem;
-    padding-inline: 0.9rem;
+    padding-block: 0.5rem;
+    padding-inline: 0.7rem;
+    letter-spacing: 1px;
     transition: all ease 0.5s;
     font-size: small;
+    font-weight: 600;
     &:hover {
       background-color: $secondary-color;
     }
