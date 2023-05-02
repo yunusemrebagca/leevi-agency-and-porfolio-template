@@ -20,8 +20,7 @@ All of the assets used in this project are licensed through Leevi Template's lic
 
 Check out the live demo of the Leevi Agency Portfolio here: https://leevi-template.webflow.io/
 
-Check out my live demo here: https://yunusemrebagca.github.io/leevi-agency-and-porfolio-template-coding/
-
+Check out my live demo here: https://yunusemrebagca.github.io/leevi-agency-and-porfolio-template/
 
 ## Getting Started
 
