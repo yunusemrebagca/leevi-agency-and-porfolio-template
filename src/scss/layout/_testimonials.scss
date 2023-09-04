@@ -1,0 +1,46 @@
+@use "base/variables" as *;
+
+.testimonials {
+  padding-block: 6rem;
+  padding-inline: 8rem;
+  background-color: $primary-color;
+  .cards {
+    .card-header {
+      padding: 2rem;
+      background-image: url("/multimedia/testimonials.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 330px;
+      color: white;
+      h3 {
+        font-size: 2.2rem;
+        font-weight: 400;
+        text-transform: uppercase;
+      }
+    }
+    .card {
+      padding: 1.5rem;
+      background-color: $muted-background;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border-radius: 0.5rem;
+      &-top {
+        img {
+          width: 2rem;
+        }
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        h4 {
+          font-size: 1.5rem;
+          font-weight: 400;
+        }
+      }
+    }
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1.2fr 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+}

@@ -37,7 +37,33 @@
 
     .card {
       &__secondary {
+        display: grid;
+        gap: 0.5rem;
+        padding: 3rem;
         background-color: $secondary-color;
+        border-radius: 1rem;
+        transition: all ease 0.5s;
+        .btn {
+          background-color: black;
+          color: white;
+          max-width: 140px;
+          padding-inline: 1rem;
+          margin-top: 3rem;
+          transition: all ease 0.3s;
+          &:hover {
+            background-color: $secondary-color;
+            color: black;
+          }
+        }
+        p {
+          font-size: 2.5rem;
+        }
+        &:hover {
+          background-color: darken($color: $background, $amount: 20%);
+          h4 {
+            color: $secondary-color;
+          }
+        }
       }
       display: grid;
       gap: 0.5rem;

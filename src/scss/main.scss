@@ -1,12 +1,8 @@
 @use "base/reset";
 @use "base/variables" as *;
-@use "layout/header";
+@use "layout";
 @use "components/buttons";
-@use "layout/hero";
-@use "layout/services";
-@use "layout/featured";
-@use "layout/why";
-@use "layout/work";
+
 body {
   background-color: $background;
 }
