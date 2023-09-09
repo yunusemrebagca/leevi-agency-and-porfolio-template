@@ -37,12 +37,20 @@
 
     transition: all ease 0.5s;
 
+    @media (max-width: 600px) {
+      padding-inline: 2rem;
+      height: 500px;
+    }
+
     &-top {
       color: $primary-color;
     }
     h3 {
       font-size: $font-very-large;
       line-height: 120%;
+      @media (max-width: 600px) {
+        font-size: 3rem;
+      }
     }
     p {
       font-size: $font-very-small;

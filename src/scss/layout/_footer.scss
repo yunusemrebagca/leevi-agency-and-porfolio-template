@@ -1,0 +1,60 @@
+.footer {
+  margin-block: 4rem;
+  display: grid;
+  grid-template-columns: 1.4fr repeat(3, 1fr);
+  gap: 1rem;
+
+  @media (max-width: 1200px) {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 4rem;
+  }
+  @media (max-width: 400px) {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+    &__pages button {
+      margin-top: 0.4rem;
+    }
+  }
+  h5 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+  }
+
+  &__cms,
+  &__pages,
+  &__utility-pages {
+    ul li {
+      margin-bottom: 0.7rem;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+    }
+  }
+
+  &__pages {
+    button {
+      padding-block: 1rem;
+      padding-inline: 2rem;
+      background-color: black;
+      color: white;
+      border-radius: 0.4rem;
+      margin-top: 1rem;
+    }
+  }
+
+  &__social-media {
+    img {
+      margin-bottom: 2rem;
+    }
+    ul a {
+      padding-inline: 0.5rem;
+      padding-block: 0.2rem;
+      background-color: white;
+      border-radius: 0.3rem;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+  }
+}

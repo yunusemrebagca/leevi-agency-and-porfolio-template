@@ -8,7 +8,13 @@ body {
 }
 .container {
   padding-inline: 4rem;
+  @media (max-width: 900px) {
+    padding-inline: 1rem;
+  }
 }
 .page__wrapper {
   padding: 2rem;
+  @media (max-width: 900px) {
+    padding-inline: 1rem;
+  }
 }

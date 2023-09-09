@@ -9,7 +9,7 @@
   column-gap: 30px;
   &__left {
     display: flex;
-
+    margin-bottom: 2rem;
     h3 {
       font-size: 4rem;
       line-height: 100%;
@@ -53,5 +53,13 @@
   }
   @media (max-width: 1100px) {
     grid-template-columns: 1fr;
+    padding-inline: 4rem;
+  }
+  @media (max-width: 600px) {
+    padding-inline: 2rem;
+  }
+
+  @media (max-width: 400px) {
+    padding-inline: 1rem;
   }
 }
