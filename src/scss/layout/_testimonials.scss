@@ -4,6 +4,10 @@
   padding-block: 6rem;
   padding-inline: 8rem;
   background-color: $primary-color;
+  @media (max-width: 1200px) {
+    padding-inline: 2rem;
+  }
+
   .cards {
     .card-header {
       padding: 2rem;
@@ -12,6 +16,13 @@
       background-size: contain;
       height: 330px;
       color: white;
+      @media (max-width: 1200px) {
+        height: auto;
+        background-size: cover;
+      }
+      @media (max-width: 400px) {
+        height: 500px;
+      }
       h3 {
         font-size: 2.2rem;
         font-weight: 400;
@@ -42,5 +53,11 @@
     grid-template-rows: 1fr;
     grid-template-columns: 1.2fr 1fr 1fr 1fr;
     gap: 1rem;
+    @media (max-width: 1200px) {
+      grid-template-columns: 1fr 1fr;
+    }
+    @media (max-width: 600px) {
+      grid-template-columns: 1fr;
+    }
   }
 }

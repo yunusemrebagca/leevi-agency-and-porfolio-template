@@ -8,9 +8,19 @@
   grid-template-columns: 1.5fr 3fr;
   border-radius: 0 0 1rem 1rem;
 
+  @media (max-width: 1000px) {
+    padding-inline: 2rem;
+    grid-template-columns: 1fr;
+  }
+
   &-left {
     display: flex;
     flex-direction: column;
+    @media (max-width: 1000px) {
+      align-items: center;
+      margin-bottom: 4rem;
+    }
+
     h3 {
       margin-bottom: 1rem;
       font-size: 4rem;
@@ -36,6 +46,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    @media (max-width: 700px) {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+    }
     gap: 2rem;
     &-card {
       gap: 1rem;
@@ -52,6 +66,9 @@
         position: absolute;
         bottom: 9rem;
         right: 1.7rem;
+        @media (max-width: 1200px) {
+          bottom: 10rem;
+        }
       }
       p {
         font-weight: 300;

@@ -6,6 +6,13 @@
   flex-direction: column;
   padding-inline: 8rem;
   padding-block: 4rem;
+
+  @media (max-width: 1200px) {
+    padding-inline: 2rem;
+  }
+  @media (max-width: 1200px) {
+    padding-inline: 2rem;
+  }
   &__header {
     display: flex;
     align-items: center;
@@ -24,6 +31,12 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 2rem;
+    @media (max-width: 1200px) {
+      grid-template-columns: 1fr 1fr;
+    }
+    @media (max-width: 900px) {
+      grid-template-columns: 1fr;
+    }
   }
   &__img {
     display: block;
