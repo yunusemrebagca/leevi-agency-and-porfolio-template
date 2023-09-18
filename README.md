@@ -18,9 +18,7 @@ All of the assets used in this project are licensed through Leevi Template's lic
 
 ## Preview
 
-Check out the live demo of the Leevi Agency Portfolio here: https://leevi-template.webflow.io/
-
-Check out my live demo here: https://yunusemrebagca.github.io/leevi-agency-and-porfolio-template/
+Check out my live demo here: https://tubular-pothos-e4e480.netlify.app/
 
 ## Getting Started
 
